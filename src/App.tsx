@@ -1,15 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Calendar from "./pages/Calendar";
-import Area from "./pages/Charts/Area";
-import Bar from "./pages/Charts/Bar";
-import Line from "./pages/Charts/Line";
-import Pie from "./pages/Charts/Pie";
-import Customers from "./pages/Customers";
-import ECommerce from "./pages/ECommerce";
-import Employees from "./pages/Employees";
-import Kanban from "./pages/Kanban";
-import Orders from "./pages/Orders";
+import { Area, Bar, Calendar, Customers, ECommerce, Employees, Kanban, Line, Orders, Pie } from "./pages";
+
 
 
 function App() {
