@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Bar() {
+function Conversion() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Bar() {
   )
 }
 
-export default Bar
+export default Conversion

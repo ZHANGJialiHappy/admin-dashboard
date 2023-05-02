@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import { Area, Bar, Calendar, Customers, ECommerce, Employees, Kanban, Line, Orders, Pie } from "./pages";
+import { Calendar, Customers, Overview, Employees, Kanban, Conversion, ProfitAnalysis, UsersAnalysis } from "./pages";
 
 
 
@@ -20,17 +20,15 @@ function App() {
           </div>
           <div>
             <Routes>
-              <Route path="/" element={<ECommerce/>}/>
-              <Route path="/ecommerce" element={<ECommerce/>}/>
-              <Route path="/orders" element={<Orders/>}/>
+              <Route path="/" element={<Overview/>}/>
+              <Route path="/ecommerce" element={<Overview/>}/>
+              <Route path="/conversion" element={<Conversion/>}/>
               <Route path="/employees" element={<Employees/>}/>
               <Route path="/customers" element={<Customers/>}/>
               <Route path="/calendar" element={<Calendar/>}/>
               <Route path="/kanban" element={<Kanban/>}/>
-              <Route path="/line" element={<Line/>}/>
-              <Route path="/area" element={<Area/>}/>
-              <Route path="/bar" element={<Bar/>}/>
-              <Route path="/pie" element={<Pie/>}/>
+              <Route path="/profitAnalysis" element={<ProfitAnalysis/>}/>
+              <Route path="/usersAnalysis" element={<UsersAnalysis/>}/>
             </Routes>
           </div>
         </div>

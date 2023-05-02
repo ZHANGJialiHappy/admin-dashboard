@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ECommerce() {
+function Overview() {
   return (
     <div>
       eCommerce
@@ -8,4 +8,4 @@ function ECommerce() {
   )
 }
 
-export default ECommerce
+export default Overview;
