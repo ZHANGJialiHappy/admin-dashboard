@@ -12,13 +12,13 @@ function App() {
       <BrowserRouter>
         <div className="flex relative">
           {activeMenu ? (
-            <div className="w-72 fixed sidebar bg-white">
+            <div className="w-64 fixed sidebar bg-white">
               <Sidebar/>
             </div>
           ) : (
             <div className="w-0"><Sidebar/></div>
           )}
-          <div className={`bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`}>
+          <div className={`bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-64' : 'flex-2'}`}>
             <div className="fixed md:static bg-main-bg w-full navbar">
               <Navbar/>
             </div>
